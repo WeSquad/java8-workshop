@@ -20,8 +20,9 @@ public class CollectorsJoining {
     }
 
     public String namesAsStringFromListJava8(List<User> users) {
-        return users.stream()
-                .map(user -> user.getFirstname() + " " + user.getLastname())
-                .collect(Collectors.joining(", ", "Names: ", ""));
+
+        // TODO : requires map
+
+        return "";
     }
 }

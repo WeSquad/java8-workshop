@@ -15,15 +15,17 @@ This workshop will go through all new features brought by Java 8, with code snip
 
 - [Default Methods and Functional Interfaces](#default-methods-and-functional-interfaces) _15 minutes_
 - [Lambda expressions](#lambda-expressions) _15 minutes_
+- Exercise : Enable Lambda using @FunctionalInterface _15 minutes_ 
+    - CalculatorLambdaTest.java & CalculatorLambda.java
 - [Optionals](#optionals) _15 minutes_
-- Exercise : Enable Lambda using @FunctionalInterface _15 minutes_
-- [Collection and Map API](#collection-and-map-api) _20 minutes_
-- break ? _10 minutes_
-- [Stream API](#stream-api) _45 hour_
+- [Collection and Map API](#collection-and-map-api) _30 minutes_- with exercises 
+    - CollectionApi.java 
+- Break ? _10 minutes_
+- [Stream API](#stream-api) _45 minutes_ - with exercises
+    - CollectorsGroupingBy.java & CollectorsJoining.java
+    - StreamComparing.java & StreamFilter.java
 - Exercise : Find top 5 accounts sorted by balance _15 minutes_
 - [Date API](#date-api) _30 minutes_
-
-Duration : 3 hours
 
 ## Topics
 

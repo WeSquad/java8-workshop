@@ -32,13 +32,13 @@ public class StreamFilter {
 
     public Set<Account> accountsOwnedByMinorsJava8(List<Account> accounts) {
         return accounts.stream()
-                .filter(a -> a.getUser().getAge() < MAJOR_MIN_AGE)
+                // TODO
                 .collect(Collectors.toSet());
     }
 
     public List<Account> accountsOwnedByMajorsJava8(List<Account> accounts) {
         return accounts.parallelStream()
-                .filter(a -> a.getUser().getAge() >= MAJOR_MIN_AGE)
+                // TODO
                 .sorted(Comparator.comparing(Account::getBalance))
                 .collect(Collectors.toList());
     }

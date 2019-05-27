@@ -28,15 +28,17 @@ public class StreamComparing {
     }
 
     public Account topAccountJava8(List<Account> accounts) {
-        return accounts.stream()
-                .max(Comparator.comparing(Account::getBalance))
-                .get();
+
+        // TODO
+
+        return new Account();
     }
 
     public Account worstAccountJava8(List<Account> accounts) {
-        return accounts.stream()
-                .min(Comparator.comparing(Account::getBalance))
-                .get();
+
+        // TODO
+
+        return new Account();
     }
 
 }

@@ -39,7 +39,9 @@ public class CollectorsGroupingBy {
     }
 
     public Map<Integer, List<Account>> accountsByUserIdJava8(List<Account> accounts) {
-        return accounts.stream()
-                .collect(Collectors.groupingBy(a -> a.getUser().getUid()));
+
+        // TODO
+
+        return new HashMap<>();
     }
 }
