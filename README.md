@@ -1,4 +1,4 @@
-# java8-workshop
+# Java8 Workshop
 
 This workshop will go through all new features brought by Java 8, with code snippets and test driven demonstration.
 
